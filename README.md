@@ -1,4 +1,4 @@
-CDN-on-Demand.zip contains four separate folders: one for each of CDN-on-Demand's entities (see paper).
+The repo contains four separate folders: one for each of CDN-on-Demand's entities (see paper).
 The Origin provides an example of content in the origin.
 
 
@@ -29,7 +29,7 @@ a Watchdog server, and should be placed and operated from either the origin or a
 The internal documentation is rather self-explanatory; still, below are some guidelines for adapting
 the code for your needs.
 
-You’ll need to get an AWS key pair and key pair(s) for your instances, and place them - or refer to
+Youâ€™ll need to get an AWS key pair and key pair(s) for your instances, and place them - or refer to
 them - in ec2_regions.py. The same file is dynamically filled to contain all instances registered
 to you (not necessarily active instances). In ec2_agent.py, you control several additional
 parameters, such as the maximum allowed number of active instances; you can also issue initial
