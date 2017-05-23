@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<style type="text/css">
+    a { color: Blue; }
+    a.visited { color: BlueViolet; }
+</style>
+
+<html>
+<body>
+Hello!!
+<img name="CDN" id="smiley.jpg.enc" alt="Smiley Face" height="42" width="42">
+<img name="CDN" id="public_smiley.jpg.enc" alt="Public Smiley" height="42" width="42">
+<br/>
+<button type="button" onclick="linkHandler('loggedin.html.enc','loggedin.html')">Login</button>
+<a id="logonlink" title="my logon link" href="loggedin.html.enc" onclick="$(this).addClass('visited'); linkHandler('loggedin.html.enc','loggedin.html'); return false;">test link</a>
+</body>
+</html> 
